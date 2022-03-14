@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 .bg{
     width: 5%;
@@ -28,10 +29,15 @@
 .barIcon{
     width: 50%;
     height: 50px;
-    background-color: #222;
+    border: 2px solid #222;
     margin-bottom: 8px;
     cursor: pointer;
     border-radius: 15px;
+    background-color: transparent;
+}
+.barIcon:hover{
+    background-color: #222;
+    border: 0px;
 }
 .content{
     /* position: absolute; */
