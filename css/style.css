@@ -3,6 +3,23 @@
     margin: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
+    font-family: 'Poppins';
+}
+body{
+    background: linear-gradient(to bottom left, #e7492c, #181818 80%);
+}
+::-webkit-scrollbar{
+    width: 0px;
+}
+.title{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    width: 66.66%;
+    margin-left: 16%;
+    display: flex;
+    justify-self: center;
+    margin-top: 30px;
 }
 .bg{
     width: 5%;
@@ -54,7 +71,25 @@
     justify-content: center;
     font-family: 'Poppins';
 }
+.quad img{
+    width: 95%;
+    float: right;
+    border-radius: 5%;
+    margin: 0% 2.5%;
+}
 .right{
     width: 55%;
     /* background-color: red; */
+    margin: 0;
+    padding: 0;
+}
+.quad h1{
+    color: white;
+    font-weight: 300;
+    font-size: 20px;
+    width: 80%;
+    margin-left: 0;
+}
+.left img{
+    
 }
